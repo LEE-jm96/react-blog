@@ -1,11 +1,14 @@
 import React from 'react';
 import HeaderContainer from '../components/common/HeaderContainer';
+import PostListContainer from '../containers/posts/PostListContainer';
+import PaginationContainer from '../containers/posts/PaginationContainer';
 
 const PostListPage = () => {
     return(
         <>
             <HeaderContainer />
-            <div>어서오세요. 민로그입니다!</div>
+            <PostListContainer />
+            <PaginationContainer />
         </>  
     );
 };
